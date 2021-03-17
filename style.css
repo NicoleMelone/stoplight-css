@@ -1,0 +1,58 @@
+.bar {
+    width: 7rem;
+    height: 5rem;
+    background: rgb(54, 49, 49);
+    margin: auto;
+}
+
+.cage {
+    width: 15rem;
+    height: 35rem;
+    background: rgb(54, 49, 49); 
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.light{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    margin: auto;
+    background-size: cover;
+    background-color: #f7f6f9;
+    background-image: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23000000' fill-opacity='0.27' fill-rule='evenodd'%3E%3Ccircle cx='3' cy='3' r='3'/%3E%3Ccircle cx='13' cy='13' r='3'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+
+.red{
+    background-color: rgb(228, 15, 57);
+}
+
+.red:hover{
+    box-shadow: 0 0 1.5em 1em rgb(228, 89, 89);
+    background-color: red;
+    cursor: pointer;
+}
+
+.yellow{
+    background-color: rgb(231, 165, 41);
+}
+
+.yellow:hover{
+    box-shadow: 0 0 1.5em 1em gold;
+    background-color: rgb(240, 205, 10);
+    cursor: pointer;
+}
+
+.green{
+    background-color: green;
+}
+
+.green:hover{
+    box-shadow: 0 0 1.5em 1em greenyellow;
+    background-color: rgb(49, 211, 49);
+    cursor: pointer; 
+}
+
